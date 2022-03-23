@@ -1,0 +1,43 @@
+
+
+============================== 2022-03-22 09:56:55.271407 | 24c9f599-46ac-4b21-a100-bb7bc5983fc1 ==============================
+09:56:55.271407 [info ] [MainThread]: Running with dbt=1.0.0
+09:56:55.272180 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\Siva\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name='dbt_demo', skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+09:56:55.273851 [debug] [MainThread]: Tracking: tracking
+09:56:55.297818 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE7C3BCBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE7C3BCDF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE7C3BCC40>]}
+09:56:55.297818 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Siva\.dbt
+09:56:55.298830 [debug] [MainThread]: Starter project path: c:\users\siva\desktop\programms\python\venv\lib\site-packages\dbt\include\starter_project
+10:23:20.154262 [info ] [MainThread]: Profile dbt_demo written to C:\Users\Siva\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+10:23:20.155234 [info ] [MainThread]: 
+Your new dbt project "dbt_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+10:23:20.156334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE7BFFB460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE7BFFB820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE7E0934F0>]}
+
+
+============================== 2022-03-23 10:21:10.216924 | 08cbeba7-6df1-4e45-a93e-f82952599e85 ==============================
+10:21:10.216924 [info ] [MainThread]: Running with dbt=1.0.0
+10:21:10.219924 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\Siva\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+10:21:10.219924 [debug] [MainThread]: Tracking: tracking
+10:21:10.240697 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8ECF49BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8ECF49820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8ECF49370>]}
+10:21:11.140958 [debug] [MainThread]: Executing "git --help"
+10:21:11.149389 [debug] [MainThread]: Acquiring new snowflake connection "debug"
+10:21:11.150391 [debug] [MainThread]: Using snowflake connection "debug"
+10:21:11.151391 [debug] [MainThread]: On debug: select 1 as id
+10:21:11.151391 [debug] [MainThread]: Opening a new connection, currently in state init
+10:21:11.968210 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.82 seconds
+10:21:11.970209 [debug] [MainThread]: On debug: Close
+10:21:12.082585 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8ECF6C400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8ECF6C5E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8EEC73BE0>]}
+10:21:13.114293 [debug] [MainThread]: Connection 'debug' was properly closed.
